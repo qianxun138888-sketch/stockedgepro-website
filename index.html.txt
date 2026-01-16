@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockEdge Pro | 市场洞察实验室</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">StockEdge <span>Pro</span></a>
+            <div class="nav-links">
+                <a href="#home">首页</a>
+                <a href="#insights">市场洞察</a>
+                <a href="#about">关于我们</a>
+                <a href="#community" class="btn-community"><i class="fas fa-users"></i> 加入社区</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主横幅 -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>建立您的市场认知 <span class="highlight">而非依赖运气</span></h1>
+            <p>StockEdge Pro 是一个无广告、无销售压力的学习空间。我们提供每日市场笔记、新手友好的解释以及专注于风险与心态的讨论。</p>
+            <div class="hero-buttons">
+                <a href="#insights" class="btn-primary">开始免费阅读</a>
+                <a href="https://wa.me/message/HKBMKPJFPC7TN1" class="btn-secondary" target="_blank"><i class="fab fa-whatsapp"></i> 加入讨论社区</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价值主张 -->
+    <section class="values">
+        <h2>我们提供什么，以及绝不提供什么</h2>
+        <div class="value-grid">
+            <div class="value-card">
+                <div class="value-icon">✅</div>
+                <h3>每日市场笔记</h3>
+                <p>基于逻辑的观察与分析，绝非投资建议。助您理解市场动态。</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">✅</div>
+                <h3>初学者指南</h3>
+                <p>拆解复杂术语与概念，专注于原理教学，打下坚实根基。</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🚫</div>
+                <h3>绝不提供交易信号</h3>
+                <p>我们坚信，理解市场比预测短期波动更重要。这里没有“快速致富”的陷阱。</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">🚫</div>
+                <h3>绝无买卖压力</h3>
+                <p>创造一个纯粹的学习环境，让您能够冷静思考，自主决策。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI产品预告 -->
+    <section class="ai-preview" id="ai">
+        <h2><i class="fas fa-robot"></i> AI 分析工具 · 即将推出</h2>
+        <p>我们正在开发一款AI驱动的市场分析工具，旨在帮助您更高效地处理信息、识别模式。留下联系方式，获取内测资格与更新。</p>
+        <form class="email-form">
+            <input type="email" placeholder="请输入您的电子邮箱" required>
+            <button type="submit">订阅更新</button>
+        </form>
+    </section>
+
+    <!-- 关于创始人 -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <img src="assets/founder.jpg" alt="Adam Caar" class="founder-img">
+            <div class="about-text">
+                <h2>关于 Adam Caar</h2>
+                <p>“我相信，在市场中，纪律比聪明更重要，理解比预测更有价值。创建这个空间，是为了与那些拒绝噪音、希望构建自己分析框架的投资者同行。” </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>© 2023 StockEdge Pro. 本网站内容仅为教育交流之用，不构成任何投资建议。</p>
+        <p>域名：<strong>stockedgepro.com</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
